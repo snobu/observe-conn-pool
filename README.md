@@ -9,7 +9,7 @@ $ export CONNSTR="your_SQLServer_connection_string"
 
 Edit Main() in Program.cs.
 
-### Build -
+### Build
 
 ```bash
 make build
@@ -17,12 +17,7 @@ make build
 dotnet restore && dotnet build
 ```
 
-### Clean -
-```
-make clean
-```
-
-### Run -
+### Run
 
 ```bash
 make run
@@ -33,3 +28,8 @@ dotnet run | ./chart.py
 ```
 
 ![screenshot](screenshot.png)
+
+### Clean
+```
+make clean
+```
